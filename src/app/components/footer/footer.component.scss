@@ -1,0 +1,27 @@
+.footer {
+    background: #1E273C;
+    color: white;
+    padding: 40px 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: #7767c0;
+        }
+    }
+
+    .social-icons {
+        a {
+            font-size: 20px;
+            margin: 0 10px;
+            color: white;
+            transition: 0.3s;
+
+            &:hover {
+                color: #7767c0;
+            }
+        }
+    }
+}

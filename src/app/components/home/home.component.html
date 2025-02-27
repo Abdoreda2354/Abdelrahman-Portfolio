@@ -1,0 +1,100 @@
+<main>
+    <nav class="navbar navbar-expand-lg shadow fixed-top  m-auto">
+        <div class="container-fluid">
+            <a class="navbar-brand h1" href="#home">Abdelrahman.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div #collaps class="collapse navbar-collapse d-flex ul justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+
+    <section id="home" class="d-flex align-items-center ">
+        <div class="container-fluid">
+            <div class="row cartona  ">
+                <div class="my_data col-md-12 col-lg-12 col-xl-6">
+                    <div class="hello">
+                        <p class="fs-3">Hello, I am</p>
+                        <h1>Abdelrahman Reda</h1>
+                    </div>
+                    <p class="fs-3 frontend">Front-End developer </p>
+
+                    <p class="aboutme main-color mt-3 ">
+                        specializing in building interactive and seamless user interfaces using Angular js,
+                        I believe in the importance of detail in design and user experience, and I always strive to
+                        deliver applications that are fast,
+                        efficient, and easy to use.
+                    </p>
+                    <div class="icons mt-5 d-flex align-items-center">
+                        <a href="assets/Abdelrahman Reda cv.pdf" download="Abdelrahman Reda cv.pdf"><button
+                                class="btn resume"><i class="me-2 fa-solid fa-download"></i> Download Resume </button>
+                        </a>
+                        <button class="btn Contact"> <a href="#contact" class="text-white">Contact Me </a></button>
+                        <!-- <ul class="social-media d-flex mb-0"> -->
+                        <!-- <li><a href="https://www.linkedin.com/in/abdelrahman-r-194a71290/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a></li> -->
+                        <!-- <li><a href="https://github.com/Abdoreda2354" target="_blank" ><i class="fa-brands fa-github"></i></a></li> -->
+                        <!-- <li><a href="mailto:abreda1678@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i></a></li> -->
+                        <!-- <li><a href="https://wa.me/201150539960" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a></li> -->
+                        <!--  -->
+                        <!-- </ul> -->
+                    </div>
+                </div>
+
+                <div class="my_img mt-3 col-md-12 col-lg-12 col-xl-6">
+                    <div class="border-img ">
+                        <img class="w-100" src="assets/my photo.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <section id="about">
+
+        <app-about></app-about>
+    </section>
+    <section id="services">
+
+        <app-services></app-services>
+    </section>
+
+    <section id="projects">
+        <app-projects></app-projects>
+    </section>
+    <section id="contact">
+        <app-contact></app-contact>
+    </section>
+
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</main>

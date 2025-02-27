@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+    border-left: 2px solid #eee;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3A3161;
+    border-radius: 100vh;
+}
+
+
+.toast-container {
+    top: auto!important;
+  bottom: 20px !important;
+}
+
