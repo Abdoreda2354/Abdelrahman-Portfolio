@@ -27,7 +27,6 @@ export class HomeComponent {
     }
   }
 
-
   ngAfterViewInit(): void {
     if (isPlatformBrowser(this.platformId)) {
       this.navLinks = document.querySelectorAll('.nav-link');

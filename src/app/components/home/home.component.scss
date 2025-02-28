@@ -251,3 +251,28 @@ backdrop-filter: blur(10px);
     }
    }
 }
+  @media (max-width: 473.98px) { 
+    #home{
+        .my_img {
+
+            width: 330px !important;
+            height: 330px !important;
+        }
+    .border-img {
+        width: 330px !important;
+        height: 330px !important;
+        bottom: -2px !important;
+        right: 49px !important;
+    }
+    .icons button{
+        font-size: 15px!important;
+
+    }
+   }
+
+   nav{
+    .navbar-brand {
+        font-size: 25px;
+    }
+   }
+}

@@ -3,7 +3,9 @@
     color: #fff;
     padding: 30px;
     padding-top: 70px;
-
+.dec{
+    font-size: 20px;
+}
 p{
     color: #ffffffa3;
 
@@ -65,29 +67,17 @@ p{
  }
 
 }
+@media (max-width: 473.98px) { 
+    #my_Projects .dec{
+        font-size: 16px!important;
+    }
 
+}
 @media (max-width: 991.98px) { 
     #my_Projects .services-row .item{
                 min-height: 630px!important;
     }
  }
-
-
-@media (max-width: 1000.98px) {  
-    #my_Projects .services-row .item{
-            
-                // min-height: 730px;
-            
-        
-    }
-}
-
-@media (max-width: 1040.98px) { 
-   #my_Projects .services-row .item{ 
-        // min-height: 720px ;            
-    }
- }
-
 
 @media (max-width: 1166.98px) { 
     #my_Projects .services-row .item{
@@ -100,10 +90,8 @@ p{
             p{
                 font-size: 16px;
             }
-        
     }
  }
-
 
 @media (max-width: 1355.98px) { 
    #my_Projects .services-row .item{

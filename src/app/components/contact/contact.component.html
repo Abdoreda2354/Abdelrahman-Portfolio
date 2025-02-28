@@ -7,21 +7,21 @@
 
             <div class="container-fluid mt-4 ">
                 <div class="row  align-items-center">
-                    <div class=" col-lg-6 form p-5 rounded-5">
+                    <div class=" col-lg-6 form p-4  rounded-5">
                         <div class="container mt-5 mb-5">
                             <h2 class="h1 text-white">Let's get in touch</h2>
                             <p class="text-white">Feel free to contact me</p>
                         </div>
                         <form [formGroup]="contact" (ngSubmit)="submitForm()">
                             <div class="row gy-5">
-                                <div class="col-6 mb-3">
+                                <div class="col-md-6 mb-3">
                                     <label for="FName" class=" fs-4 text-white">First Name</label>
                                     <input type="text" formControlName="fName" class="form-control " [class.border-red]="(contact.get('fName')?.getError('requird')||contact.get('fName')?.errors)&&contact.get('fName')?.touched" id="FName" placeholder="e.g abdelrahman">
                                     @if ((contact.get('fName')?.getError('requird')||contact.get('fName')?.errors)&&contact.get('fName')?.touched) {
                                         <p class="ms-1 mt-1 text-red">Requird!</p>
                                     }
                                   </div>
-                                <div class="col-6 mb-3">
+                                <div class="col-md-6 mb-3">
                                     <label for="LName" class=" fs-4 text-white">Last Name</label>
                                     <input type="text" formControlName="lName"  [class.border-red]="(contact.get('lName')?.getError('requird')||contact.get('lName')?.errors)&&contact.get('lName')?.touched" id="lName"  class="form-control" id="LName" placeholder="e.g reda">
                                     @if ((contact.get('lName')?.getError('requird')||contact.get('lName')?.errors)&&contact.get('lName')?.touched) {

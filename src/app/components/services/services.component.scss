@@ -3,7 +3,9 @@
     color: #fff;
     min-height: 120vh;
     padding-top: 50px!important;
-
+    .dec{
+        font-size: 20px;
+    }
 
 p{
     color: #ffffffa3;;
@@ -48,6 +50,12 @@ p{
             }
     
 }
+
+}
+@media (max-width: 473.98px) { 
+    #services .dec{
+        font-size: 16px!important;
+    }
 
 }
 @media (max-width: 575.98px) {

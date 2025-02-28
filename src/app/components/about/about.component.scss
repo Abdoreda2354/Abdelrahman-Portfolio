@@ -106,11 +106,12 @@
         
                 &-item {
                     width: 100%;
-                    padding-left: 50px;
-                    padding-right: 20px;
         
                     &:nth-child(even) {
-                        left: 0;
+                        left: 0px;
+                        &::before{
+                            left: 10px;
+                        }
                     }
         
                     &::before {
@@ -161,6 +162,7 @@
             }
             p {
                 margin: 15px 0px;
+                text-align: center;
             }
 
             small, p {
@@ -189,4 +191,19 @@
             margin: auto;
         }
     }
+    #education .dec{
+        font-size: 16px!important;
+    }
  }
+@media (max-width: 576.98px) {
+    .skilles .col-sm-6 {
+        flex: 0 0 50%; /* Make each column take 50% of the row */
+        max-width: 50%;
+      }
+ }
+ @media (max-width: 473.98px) { 
+    #education .dec{
+        font-size: 14px!important;
+    }
+
+}
